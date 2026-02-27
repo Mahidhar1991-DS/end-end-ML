@@ -10,5 +10,6 @@ Requires-Dist: scikit-learn
 Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
 Requires-Dist: catboost
+Requires-Dist: dill
 Dynamic: author
 Dynamic: requires-dist
