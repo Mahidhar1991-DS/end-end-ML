@@ -1,0 +1,21 @@
+[ 2026-03-02 15:33:51,224 ] 27 root - INFO - Entered the data ingestion method or component
+[ 2026-03-02 15:33:51,228 ] 30 root - INFO - Read the dataset as dataframe
+[ 2026-03-02 15:33:51,230 ] 36 root - INFO - Train test split initiated
+[ 2026-03-02 15:33:51,233 ] 43 root - INFO - Inmgestion of the data iss completed
+[ 2026-03-02 15:33:51,235 ] 71 root - INFO - Read train and test data completed
+[ 2026-03-02 15:33:51,235 ] 72 root - INFO - Obtaining preprocessing object
+[ 2026-03-02 15:33:51,235 ] 50 root - INFO - Categorical columns encoding completed
+[ 2026-03-02 15:33:51,235 ] 51 root - INFO - Numerical columns standard scaling completed
+[ 2026-03-02 15:33:51,235 ] 84 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2026-03-02 15:33:51,242 ] 97 root - INFO - Saved preprocessing object
+[ 2026-03-02 15:33:51,243 ] 36 root - INFO - Splitting training and test input data
+[ 2026-03-02 15:33:51,244 ] 95 root - INFO - Tuning model: Random Forest
+[ 2026-03-02 15:33:54,006 ] 95 root - INFO - Tuning model: Decision Tree
+[ 2026-03-02 15:33:54,045 ] 95 root - INFO - Tuning model: Gradient Boosting
+[ 2026-03-02 15:33:54,310 ] 95 root - INFO - Tuning model: Linear Regression
+[ 2026-03-02 15:33:54,321 ] 95 root - INFO - Tuning model: K-Neighbors Regressor
+[ 2026-03-02 15:33:54,403 ] 95 root - INFO - Tuning model: XGB Regressor
+[ 2026-03-02 15:33:54,689 ] 95 root - INFO - Tuning model: CatBoost Regressor
+[ 2026-03-02 15:33:55,091 ] 95 root - INFO - Tuning model: AdaBoost Regressor
+[ 2026-03-02 15:33:55,374 ] 122 root - INFO - Best model found: Linear Regression
+[ 2026-03-02 15:33:55,374 ] 123 root - INFO - Best R2 Score: 0.8804332983749565

@@ -1,0 +1,12 @@
+[ 2026-03-02 15:31:51,906 ] 27 root - INFO - Entered the data ingestion method or component
+[ 2026-03-02 15:31:51,910 ] 30 root - INFO - Read the dataset as dataframe
+[ 2026-03-02 15:31:51,912 ] 36 root - INFO - Train test split initiated
+[ 2026-03-02 15:31:51,917 ] 43 root - INFO - Inmgestion of the data iss completed
+[ 2026-03-02 15:31:51,918 ] 71 root - INFO - Read train and test data completed
+[ 2026-03-02 15:31:51,918 ] 72 root - INFO - Obtaining preprocessing object
+[ 2026-03-02 15:31:51,918 ] 50 root - INFO - Categorical columns encoding completed
+[ 2026-03-02 15:31:51,918 ] 51 root - INFO - Numerical columns standard scaling completed
+[ 2026-03-02 15:31:51,919 ] 84 root - INFO - Applying preprocessing object on training and testing dataframe
+[ 2026-03-02 15:31:51,927 ] 97 root - INFO - Saved preprocessing object
+[ 2026-03-02 15:31:51,929 ] 39 root - INFO - Splitting training and test input data
+[ 2026-03-02 15:31:51,929 ] 98 root - INFO - Tuning model: Random Forest
